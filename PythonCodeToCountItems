@@ -1,0 +1,17 @@
+# Example string with items placed one below another
+item_text = """
+Item 1
+Item 2
+Item 3
+Item 4
+Item 5
+"""
+
+# Split the text into lines using the splitlines() method
+items = item_text.splitlines()
+
+# Count the number of items
+item_count = len(items)
+
+# Print the result
+print("Number of items:", item_count)
